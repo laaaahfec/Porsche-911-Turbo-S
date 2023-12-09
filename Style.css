@@ -5,7 +5,7 @@ body, html {
   
   /* Definindo a altura do site como 125% da tela */
   body {
-    height: 100vh; /* vh = viewport height */
+    height: 125vh; /* vh = viewport height */
     overflow-y: scroll; /* Adicionando barra de rolagem vertical se necessário */
   }
   
