@@ -1,6 +1,7 @@
 body {
     background-color: #CCCCCC; /* Cor cinza */
     font-family: Arial, sans-serif;
+    text-align: center; /* Centraliza todo o texto horizontalmente */
   }
   
   header {
@@ -32,3 +33,4 @@ body {
     width: 100%;
     background-color: #FFFFFF; /* Cor do rodapé */
   }
+  
