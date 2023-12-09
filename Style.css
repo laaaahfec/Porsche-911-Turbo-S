@@ -1,4 +1,3 @@
-/* Resetando margens e paddings */
 body, html {
     margin: 0;
     padding: 0;
@@ -7,7 +6,7 @@ body, html {
   
   /* Definindo o tema cinza claro */
   body {
-    background-color: #f2f2f2; /* Cor de fundo cinza claro */
+    background-color: #474747; /* Cor de fundo cinza claro */
     color: #333; /* Cor do texto */
     font-family: Arial, sans-serif; /* Fonte */
   }
