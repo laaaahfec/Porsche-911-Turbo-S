@@ -34,3 +34,22 @@ body {
     background-color: #4e4c4c; /* Cor do rodapé */
   }
   
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Tela inteira */
+  }
+  
+  .imagem-centralizada {
+    max-width: 200px; /* Largura máxima da imagem */
+  }
+  
+  .imagem-centralizada img {
+    display: block; /* Remove espaço extra em torno da imagem */
+    width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+  
