@@ -25,15 +25,7 @@ body {
     margin-bottom: 40px; /* Espaçamento entre as seções */
   }
   
-  footer {
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #4e4c4c; /* Cor do rodapé */
-  }
-  
+/* Resetando margens e paddings */
 body {
     margin: 0;
     padding: 0;
@@ -44,12 +36,22 @@ body {
   }
   
   .imagem-centralizada {
-    max-width: 200px; /* Largura máxima da imagem */
+    width: 200px; /* Largura desejada para a imagem */
   }
   
   .imagem-centralizada img {
     display: block; /* Remove espaço extra em torno da imagem */
     width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
     height: auto; /* Mantém a proporção da imagem */
+  }
+  
+
+  footer {
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #4e4c4c; /* Cor do rodapé */
   }
   
